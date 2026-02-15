@@ -49,7 +49,6 @@ body {
 
 .div-quilombolas {
  
-
     justify-content: center;
     justify-items: center;
     background-color: #80895e;
@@ -226,11 +225,6 @@ footer img {
 
 }
 
-/*
-.a-link:hover {
-    font-weight: bold;
-}
-*/
 
 .container-manifesta {
     padding: 50px;
@@ -268,7 +262,7 @@ h2 {
     gap: 2rem;
     padding: 2rem;
     justify-content: center;
-    max-width: 1200px;
+/*     max-width: 1200px; */
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box;
@@ -360,10 +354,11 @@ h3 {
 }
 
 .preco {
-    color: #27ae60;
     font-weight: bold;
-    font-size: 1.2rem;
-    margin: 10px 0;
+    font-size: 5rem;
+    margin: 20px 0;
+    padding: 15px;
+    
 }
 
 /* Botão do WhatsApp */
