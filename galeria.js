@@ -9,7 +9,7 @@ function audioDescricao(idAudio, botao) {
     if (!audio.paused) {
         audio.pause();
         icone.textContent = '🔊';
-        texto.textContent = 'Ouvir audiodescrição poética';
+        texto.textContent = 'Ouvir audiodescrição';
         return;
     }
     
@@ -33,7 +33,7 @@ function audioDescricao(idAudio, botao) {
     // Quando o áudio terminar naturalmente
     audio.onended = function() {
         icone.textContent = '🔊';
-        texto.textContent = 'Ouvir audiodescrição poética';
+        texto.textContent = 'Ouvir audiodescrição';
     };
 }
 
@@ -48,6 +48,6 @@ function pausarTodosAudios() {
     const botoes = document.querySelectorAll('.btn-audio');
     botoes.forEach(botao => {
         botao.querySelector('.icone').textContent = '🔊';
-        botao.querySelector('.texto').textContent = 'Ouvir audiodescrição poética';
+        botao.querySelector('.texto').textContent = 'Ouvir audiodescrição';
     });
 }
