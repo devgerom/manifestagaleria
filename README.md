@@ -56,7 +56,7 @@ Todas as obras são realizadas em **aquarela sobre papel algodão 100%**, com di
 
 ## 🌐 Acesse o Site
 
-🔗 **Site oficial:** https://devgerom.github.io/manifesta  
+🔗 **Site oficial:** https://devgerom.github.io/manifestagaleria  
 
 
 ### 📱 Navegação no Site:
