@@ -45,13 +45,13 @@ body {
     width: 100%;
 }
 
-/* Estilos para as seções da galeria - SEM GRID */
+/* Estilos para as seções da galeria - UMA COLUNA */
 .div-quilombolas,
 .div-indigenas,
 .div-fauna,
 .div-flora {
     display: flex;
-    flex-direction: column;  /* Uma embaixo da outra */
+    flex-direction: column;
     gap: 2rem;
     background-color: #80895e;
     border-radius: 8px;
@@ -59,42 +59,15 @@ body {
     margin-bottom: 3rem;
 }
 
-
-/* Ajuste para telas médias (tablets) */
-@media (max-width: 1024px) {
-    .div-quilombolas,
-    .div-indigenas,
-    .div-fauna,
-    .div-flora {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 1.5rem;
-        padding: 20px;
-    }
-}
-
-/* Ajuste para telas pequenas (celulares) */
+/* Ajuste para telas pequenas */
 @media (max-width: 768px) {
     .div-quilombolas,
     .div-indigenas,
     .div-fauna,
     .div-flora {
-        grid-template-columns: 1fr;
-        /* 1 card por linha no celular */
         gap: 1.5rem;
         padding: 15px;
         margin-bottom: 2rem;
-    }
-}
-
-/* Ajuste para telas muito grandes (monitores 4K) */
-@media (min-width: 1920px) {
-    .div-quilombolas,
-    .div-indigenas,
-    .div-fauna,
-    .div-flora {
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-        gap: 2.5rem;
-        padding: 40px;
     }
 }
 
