@@ -45,19 +45,20 @@ body {
     width: 100%;
 }
 
-/* Estilos para as seções da galeria - VERSÃO RESPONSIVA COM GRID */
+/* Estilos para as seções da galeria - SEM GRID */
 .div-quilombolas,
 .div-indigenas,
 .div-fauna,
 .div-flora {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    display: flex;
+    flex-direction: column;  /* Uma embaixo da outra */
     gap: 2rem;
     background-color: #80895e;
     border-radius: 8px;
     padding: 30px;
     margin-bottom: 3rem;
 }
+
 
 /* Ajuste para telas médias (tablets) */
 @media (max-width: 1024px) {
@@ -461,15 +462,14 @@ h3 {
     .whatsapp-button,
     .btn-audio {
         width: 100%;
-        /* Botões ocupam toda largura no celular */
         font-size: 0.9rem;
         padding: 12px;
     }
-
-    .imagem-container {
+    
+    /* REMOVA ou COMENTE esta linha: */
+    /* .imagem-container {
         padding-top: 120%;
-        /* Um pouco mais baixo no celular */
-    }
+    } */
     
     .div-contato {
         max-width: 95%;
